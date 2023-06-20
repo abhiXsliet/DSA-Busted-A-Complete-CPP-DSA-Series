@@ -1,0 +1,77 @@
+#include<iostream>
+using namespace std;
+
+/*
+int main(){
+
+    int n;
+    cout << "Please give the as a number" << endl;
+    cin>>n;
+
+    int i = 1;
+
+    while(i<=n){
+
+        int j = 1;
+        while(j<=n){
+            cout << "*" ;
+            j = j + 1;
+
+        }
+        cout << endl;
+
+        i = i + 1;
+    
+    }
+
+}
+
+
+int main(){
+
+    int n;
+    cout << "Please input a number" << endl;
+    cin>>n;
+
+    int i = 1;
+    
+    while(i<=n){
+
+        int j = 1;
+        
+        while(j<=n){
+
+            cout << i ;
+            j = j + 1;
+
+        }
+        cout << endl;
+
+        i = i + 1;
+    }
+}
+*/  
+
+int main(){
+
+    int n;
+    cout << "Please input the number " << endl;
+    cin>>n;
+
+    int i = 1;
+
+    while(i<=n){
+
+        int j = 1;
+        while(j<=i){
+            cout << "$";
+            j = j + 1;
+
+        }
+        cout << endl;
+
+        i = i + 1;
+
+    }
+}
+
