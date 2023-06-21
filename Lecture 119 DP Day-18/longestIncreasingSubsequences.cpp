@@ -3,6 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 class Solution {
 
     //Time Complexity => exponential O(2^n)
@@ -58,7 +59,7 @@ class Solution {
                 //include
                 int include = 0;
                 if(prev == -1 || nums[curr] > nums[prev])
-                    include = 1 + dp[curr+1][curr+1]; //curr=prev & +1 due to -1-index
+                    include = 1 + dp[curr+1][curr+1]; //prev=curr & +1 due to -1-index
 
                 //exclude
                 int exclude = 0 + dp[curr+1][prev+1];
@@ -82,7 +83,7 @@ class Solution {
                 //include
                 int include = 0;
                 if(prev == -1 || nums[curr] > nums[prev])
-                    include = 1 + nextRow[curr+1]; //curr=prev & +1 due to -1-index
+                    include = 1 + nextRow[curr+1]; //prev=curr & +1 due to -1-index
 
                 //exclude
                 int exclude = 0 + nextRow[prev+1];
@@ -94,8 +95,6 @@ class Solution {
         return nextRow[0];
     }
 
-    //Time Complexity => O(nlog(n))
-    //Space Complexity => O(n)
     int solveOptimal(vector<int>& nums, int n) {
         //base case
         if(n == 0)
