@@ -24,7 +24,6 @@ The order of time complexity, from best to worst, is as follows:
 
 ## Order of Time Complexity
 
-----------
 **O(1) < O(log(n)) < O(√n) < O(n) < O(nlog(n)) < O(n²) < O(n³) < O(2^n) < O(n!)**
 
 It's important to note that as we move from left to right in the above list, the algorithms become increasingly inefficient and slower.
