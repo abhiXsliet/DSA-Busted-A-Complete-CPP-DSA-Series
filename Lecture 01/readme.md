@@ -8,7 +8,7 @@ A FlowChart is a visual representation of a program using diagrams and shapes th
 
 Please refer to the attached image for a visual representation of the FlowChart.
 
-![FlowChart Image](flowchart.JPG)
+![FlowChart Image](flowchart.png)
 
 ## PseudoCode
 PseudoCode is a way to express general instructions without using specific programming syntax. It serves as a high-level representation of a program's logic. PseudoCode can be easily converted into actual code once the algorithm is finalized. It helps in planning and designing the program's structure before implementation.
