@@ -1,11 +1,12 @@
 //https://www.codingninjas.com/codestudio/problems/nth-fibonacci-number_74156
-//Time Complexity will be O(N)
-//Space Complexity will be O(N) + O(N) = O(N)
+
 
 
 #include<bits/stdc++.h>
 using namespace std;
 
+//Time Complexity will be O(N)
+//Space Complexity will be O(N) + O(N) = O(N)
 int fib(int n, vector<int>& dp)
 {
     //base case
