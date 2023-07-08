@@ -1,5 +1,7 @@
 //https://www.codingninjas.com/codestudio/problems/pair-sum_697295?leftPanelTab=0
 
+
+
 #include <bits/stdc++.h> 
 using namespace std;
 
@@ -17,6 +19,6 @@ vector<vector<int>> pairSum(vector<int> &arr, int s){
             }
         }
     }
-    sort((ans.begin()), (ans.end()));
+    sort(ans.begin(), ans.end());
     return ans;
 }
