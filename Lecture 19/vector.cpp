@@ -75,6 +75,18 @@ int main(){
         cout << i << " ";
     }
 
+
+    cout << endl << endl;
+    vector<int> ans = {4, 5, 7, 8};
+    auto it = lower_bound(ans.begin(), ans.end(), 6) ;
+    if(it != ans.end()) {
+        cout << "Lower bound " << *it << endl;
+    } else {
+        cout << "No lower bound found " << endl;
+    }
+    int x = lower_bound(ans.begin(), ans.end(), 6) - ans.begin();
+    cout << x;
+
     cout << endl << endl;
     return 0;
 }
