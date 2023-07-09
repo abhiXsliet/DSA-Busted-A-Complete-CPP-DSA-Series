@@ -9,7 +9,6 @@ class Solution {
     //Time Complexity => exponential O(2^n)
     //Space Complexity => O(n)
     int solveRec(vector<int>& nums, int n, int curr, int prev) {
-
         //base case
         if(curr == n)
             return 0;
@@ -95,6 +94,8 @@ class Solution {
         return nextRow[0];
     }
 
+    // Time Complexity => O(nlog(n))
+    // Space Complexity => O(n)
     int solveOptimal(vector<int>& nums, int n) {
         //base case
         if(n == 0)
@@ -131,7 +132,7 @@ public:
         // //Space-Optimization
         // return solveSO(nums, n);
 
-        // Time-complexity => O(nlog(n))
+        // lower bound binary search approach
         return solveOptimal(nums, n);
 
     }
