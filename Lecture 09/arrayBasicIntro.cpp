@@ -18,8 +18,8 @@ int main(){
     int number[15] = {2,7};
 
     //access the array
-    cout << "value at 14th-index " << number[14] << endl;//garbage value
-    //we can't print the index 20 because above array is of 15 length
+    cout << "value at 14th-index " << number[14] << endl; // garbage value
+    // we can't print the index 20 because above array is of 15 length
 
     int second[3] = {5, 7, 11};
     //accessing the element
@@ -45,8 +45,7 @@ int main(){
     printArray(fifth, 10);
 
 
-    //to initialize the array with any value; here initializing '1'
-    //fill_n(array, 100, 1);
+    // to initialize array with any value; here initializing '1'
     int arrayX[20];
     fill_n(arrayX,20,1);
     printArray(arrayX, 20);
@@ -58,7 +57,6 @@ int main(){
         cout << newArr[i] << " ";
 
     char ch[5] = {'a', 'b', 'c', 'd', 'r'};
-    //we can't call the fn. since it is only for the int type
     for(int i=0; i<5; i++){
         cout << ch[i] << " ";
     }

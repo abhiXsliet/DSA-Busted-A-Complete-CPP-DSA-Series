@@ -41,10 +41,7 @@ int getMin(int num[], int n){
             mini = num[i];
         }
         // mini = min(mini, arr[i]);
-        //Whatever be the minimum of mentioned variables(mini, num) will be stored in mini.   
-
     }
-    //returning min value
     return mini;
 }
 
@@ -56,11 +53,8 @@ int getMax(int num[], int n){
         if(num[i]>maxi){
             maxi = num[i];
         }
-
-        //maxi = max(maxi, arr[i]);
-        //Whatever be the maximum of mentioned variables(maxi, num) will be stored in maxi.   
+        // maxi = max(maxi, arr[i]);
     }
-    //returning max value;
     return maxi;
 }
 
@@ -161,8 +155,8 @@ int main(){
     reverseArray(arr,n);
     printArray(arr,n);
 
+    
     return 0;
-
 }
 
 
