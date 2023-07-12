@@ -1,14 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//Merge sort is the Fastest as compared to all sorting algo.
-//Space complexity of merge sort : O(n)
-//Time complexit of merge sort : O(nlog(n))
+
 
 //Merge sort is the Fastest as compared to all sorting algo.
 //Space complexity of merge sort : O(n)
-//Time complexit of merge sort : O(nlog(n))
-
+//Time complexity of merge sort : O(nlog(n))
 void merge(int arr[], int s, int e) {
 
     int mid = s + (e - s)/2;
@@ -112,14 +109,3 @@ int main() {
     cout << endl;
     return 0;
 }
-
-//Hw : Do inversion sort (very easy just one line being added to the code of merge sort)
-//*very important* read Application/Drawbacks of merge sort from the gfg article. 
-//Link : https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXRxWHk3X083NUwyN1V2S0JwU0lEdTdIWEduUXxBQ3Jtc0trQ3k2VXBUX211SmtMYXBvNEhWZ0tzYjNDY1FPQUE5YUJxbHcwd0NMQzRNT1BZajBYNzhLN0J4RDFJQWxNQzZudW9EanNUMG9EYWFTWlhvQmxwX0htYVpXSEdXdk8xVVdvZUZ1Sm05ZDJmNDVGYkhkTQ&q=https%3A%2F%2Fwww.geeksforgeeks.org%2Fmerge-sort%2F&v=cdHEpbBVjRM
-
-//How Time complexity of Merge Sort is calculated??
-
-
-
-
-
