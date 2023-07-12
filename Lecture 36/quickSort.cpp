@@ -97,4 +97,4 @@ int main() {
 
 //Read GFG article => why Quick Sort is preferred over Merge Sort in sorting arrays?
 //Read GFG article => Why Merge Sort is preferred over Merge Sort in Linked list?
-//LINK : https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazd1V0dzSWFrbkJ3VE5Gc0cxa29TdzFJR1lXd3xBQ3Jtc0tteklHXzBvdDBOR2hsVlNsckZjSnlrYXBpcGI1T2dZUzQ5TmxJZURISWJzSFoyWmRTcElaai1CSnlycE1CQzBlLU5IODdWNHlFT3VyVzZONU1DbmRudVpPLVdfaEV0U2hMTjNmUHpvaVlrdVhEV2FOQQ&q=https%3A%2F%2Fwww.geeksforgeeks.org%2Fquick-sort%2F&v=sNaHN4tZmRk
+//LINK : https://www.geeksforgeeks.org/quick-sort/
