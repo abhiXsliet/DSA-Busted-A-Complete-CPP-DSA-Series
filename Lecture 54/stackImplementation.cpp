@@ -56,13 +56,14 @@ class Stack
         }
         else
         {
+            cout << "Popped - " << arr[top] << endl;
             top--;
         }
     }
 
     int peek()
     {
-        if(top >= -1)
+        if(top > -1)
         {
             return arr[top];
         }
@@ -89,7 +90,7 @@ class Stack
 
 int main()
 {
-    Stack st(4);
+    Stack st(5);
     st.push(10);
     st.push(20);
     st.push(30);
@@ -97,12 +98,12 @@ int main()
     st.push(50);
     st.push(60);
 
-    cout << st.peek() << endl;
+    cout << "Peek Of Stack - " << st.peek() << endl;
 
     st.pop();
     st.pop();
 
-    cout << st.peek() << endl;
+    cout << "Peek Of Stack - " << st.peek() << endl;
 
     if(st.isEmpty())
     {
